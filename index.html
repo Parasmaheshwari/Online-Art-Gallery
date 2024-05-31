@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Art Gallery</title>
+
+</head>
+<body>
+    <header>
+        <h1>Art Gallery</h1>
+    </header>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="images/image1.jpg" onclick="openModal('images/image1.jpg')" alt="Image 5">
+        </div>
+        <div class="gallery-item">
+            <img src="images/image2.jpg" onclick="openModal('images/image2.jpg')" alt="Image 5">
+        </div>
+        <div class="gallery-item">
+            <img src="images/image3.jpg" onclick="openModal('images/image3.jpg')" alt="Image 5">
+        </div>
+        <div class="gallery-item">
+            <img src="images/image4.jpg" onclick="openModal('images/image4.jpg')" alt="Image 5">
+        </div>
+        <div class="gallery-item">
+            <img src="images/image5.jpg" onclick="openModal('images/image5.jpg')" alt="Image 5">
+        </div>
+        <div class="gallery-item">
+            <img src="images/image6.jpg" onclick="openModal('images/image6.jpg')" alt="Image 5">
+        </div>
+        <div class="gallery-item">
+            <img src="images/image7.jpg" onclick="openModal('images/image7.jpg')" alt="Image 5">
+        </div>
+        <div class="gallery-item">
+            <img src="images/image8.jpg" onclick="openModal('images/image8.jpg')" alt="Image 5">
+        </div>
+        <div class="gallery-item">
+            <img src="images/image9.jpg" onclick="openModal('images/image9.jpg')" alt="Image 5">
+        </div>
+        <div class="gallery-item">
+            <img src="images/image10.jpg" onclick="openModal('images/image10.jpg')" alt="Image 5">
+        </div>
+        <div class="gallery-item">
+            <img src="images/image11.jpg" onclick="openModal('images/image11.jpg')" alt="Image 5">
+        </div>
+        <div class="gallery-item">
+            <img src="images/image12.jpg" onclick="openModal('images/image12.jpg')" alt="Image 5">
+        </div>
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="modalImg" class="modal-content">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
